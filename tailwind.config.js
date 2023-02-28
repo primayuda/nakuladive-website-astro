@@ -1,4 +1,5 @@
 module.exports = {
+  darkMode: 'class',
   content: ['./src/**/*.{astro,html,svelte,vue,js,ts,jsx,tsx}'],
   plugins: [
     require('@tailwindcss/typography'),
@@ -13,8 +14,8 @@ module.exports = {
   },
   daisyui: {
     themes: [
-      'night',
-      'winter',
+      'light',
+      'dark',
     ]
   }
 }
