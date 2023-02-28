@@ -1,11 +1,71 @@
 ---
-import Page from "@layouts/page";
+import Page from '@layouts/page';
 ---
 
-<Page title="Contact me">
-	<h1>Contact me</h1>
-	<p>
-	Molestias laudantium dolorem impedit quam eaque suscipit voluptatem vel. Sit et sit autem quae dicta repellat magnam. Iste corporis nihil enim nobis. Ea omnis qui illo ratione. Et eius est mollitia.
-	Id dicta cumque saepe enim reprehenderit quidem quis mollitia sit. Aspernatur quia doloribus ipsa. Soluta quis necessitatibus eaque dolorem sunt voluptates neque. Sit cumque dolor distinctio. Fugiat nostrum consequatur.
-	</p>
+<style>
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+</style>
+<Page title='Contact us'>
+  <h1>Contact us</h1>
+  <p>Come visit Nakula Dive at Jalan Nakula Raya 9A, Indraprasta, Bogor</p>
+  <div class="map-responsive">
+    <iframe
+      src='https://www.google.com/maps/d/embed?mid=1O-EUABlnZk1s1xrmPA7wTM1cSZRQ_rSE&ehbc=2E312F'
+      width='640'
+      height='480'></iframe>
+  </div>
+	<p>Leave a message below or contact us through any channel in the footer</p>
+	<form class="p-10 bg-white rounded-lg drop-shadow-lg space-y-1" action="">
+				<!-- Name -->
+		<div class="flex flex-col">
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" required class="peer border border-slate-400">
+				<p class="invisible peer-invalid:visible text-red-700 font-light">
+						Please enter your name
+				</p>
+		</div>
+
+		<!-- Email -->
+		<div class="flex flex-col">
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" required class="peer border border-slate-400">
+				<p class="invisible peer-invalid:visible text-red-700 font-light">
+						Please enter a valid email address
+				</p>
+		</div>
+
+		<!-- Mobile/WA -->
+		<div class="flex flex-col">
+				<label for="email">Mobile/WhatsApp</label>
+				<input type="tel" name="phone" id="phone" class="peer border border-slate-400">
+				<p class="invisible peer-invalid:visible text-red-700 font-light">
+						Please enter a valid phone number
+				</p>
+		</div>
+
+		<!-- Message -->
+		<div class="flex flex-col">
+				<label for="message">Message</label>
+				<textarea name="message" id="message" cols="30" rows="3" 
+						class="peer border border-slate-400"></textarea>
+				<p></p>
+	
+		</div>
+		<button type="submit" class="px-5 py-1 bg-blue-800 text-white">Send</button>
+</form>
+
+	
 </Page>
