@@ -24,7 +24,7 @@ As you descent, your ear drum (2) will get more pressure from the water around y
 
 ## Equalization techniques
 
-The key to equalizing is to get air to flow from the throat to the inner ear through normally closed eustachian tube. Most of the divers are taught to equalize by piching their nose and blowing gently. This gentle pressure open the eusachian tube and flow air gently to middle air. It should be done gently and not forced.
+The key to equalizing is to get air to flow from the throat to the inner ear through normally closed eustachian tube. Most of the divers are taught to equalize by pinching their nose and blowing gently. This gentle pressure open the eusachian tube and flow air gently to middle air. It should be done gently and not forced.
 
 Most divers try to force equalization. This is dangerous. You should equalize early and often. That means, you should start when there is no pressure and repeat often. When you can not equalize, do not force it. Instead, release the pressure by ascending slightly and try again to equalize.
 
