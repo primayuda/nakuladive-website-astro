@@ -3,7 +3,7 @@ title: Our dive center partner at Labuan Bajo
 date: 2023-02-28
 author: Primayuda
 desc: We work together with Divers Paradise Komodo to arrange trip to Labuan Bajo and Komodo National Park.
-img: https://res.cloudinary.com/primayuda/image/upload/v1628492537/Divers%20Paradise%20Komodo/DPK%20Logo%2001.png
+img: https://res.cloudinary.com/primayuda/image/upload/q_auto,f_auto,w_auto/v1628492537/Divers%20Paradise%20Komodo/DPK%20Logo%2001.png
 imgWidth: 800
 imgHeight: 500
 ---

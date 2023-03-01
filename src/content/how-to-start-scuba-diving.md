@@ -3,7 +3,7 @@ title: How to start with Scuba Diving
 date: 2023-02-28
 author: Primayuda
 desc: Anybody can learn scuba diving and it is very simple to start. You can even start with try dive in the pool and if you enjoy it, continue with the dive course.
-img: https://res.cloudinary.com/primayuda/image/upload/v1647236992/Nakula%20Dive/DSC03867_riczv9.jpg
+img: https://res.cloudinary.com/primayuda/image/upload/q_auto,f_auto,w_auto/v1647236992/Nakula%20Dive/DSC03867_riczv9.jpg
 imgWidth: 800
 imgHeight: 500
 ---
