@@ -28,44 +28,52 @@ import Page from '@layouts/page';
       height='480'></iframe>
   </div>
 	<p>Leave a message below or contact us through any channel in the footer</p>
-	<form class="p-10 bg-white rounded-lg drop-shadow-lg space-y-1" action="https://api.web3forms.com/submit" method="POST">
+	<form class="p-10 bg-white rounded-lg drop-shadow-lg space-y-3" action="https://api.web3forms.com/submit" method="POST">
 		<!-- Web3form key -->
 		<input type="hidden" name="access_key" value="eb5a665b-b112-43f1-8b96-58198c86ed5e">
 
 		<!-- Name -->
-		<div class="flex flex-col">
-				<label for="name">Name</label>
-				<input type="text" name="name" id="name" required class="peer border border-slate-400">
-				<p class="invisible peer-invalid:visible text-red-700 font-light">
-						Please enter your name
-				</p>
+		<div class="form-control w-full max-w-lg">
+			<label class="label">
+				<span class="label-text">What is your name?</span>
+				<span class="label-text-alt text-red-500">required</span>
+			</label>
+			<input type="text" name="name" required placeholder="Type here" class="input input-bordered w-full max-w-lg focus:input-primary" />
+			<!-- <label class="label">
+				<span class="label-text-alt text-red-500 invisible peer-invalid:visible">Please enter your name</span>
+			</label> -->
 		</div>
 
 		<!-- Email -->
-		<div class="flex flex-col">
-				<label for="email">Email</label>
-				<input type="email" name="email" id="email" required class="peer border border-slate-400">
-				<p class="invisible peer-invalid:visible text-red-700 font-light">
-						Please enter a valid email address
-				</p>
+		<div class="form-control w-full max-w-lg">
+			<label class="label">
+				<span class="label-text">What is your email?</span>
+				<span class="label-text-alt text-red-500">required</span>
+			</label>
+			<input type="email" name="email" required placeholder="Type here" class="input input-bordered w-full max-w-lg focus:input-primary" />
+			<!-- <label class="label">
+				<span class="label-text-alt text-red-500 invisible peer-invalid:visible">Please enter your name</span>
+			</label> -->
 		</div>
 
 		<!-- Mobile/WA -->
-		<div class="flex flex-col">
-				<label for="email">Mobile/WhatsApp</label>
-				<input type="tel" name="phone" id="phone" class="peer border border-slate-400">
-				<p class="invisible peer-invalid:visible text-red-700 font-light">
-						Please enter a valid phone number
-				</p>
+		<div class="form-control w-full max-w-lg">
+			<label class="label">
+				<span class="label-text">What is your mobile/WA?</span>
+			</label>
+			<input type="tel" name="mobile" placeholder="Type here" class="input input-bordered w-full max-w-lg focus:input-primary" />
+			<!-- <label class="label">
+				<span class="label-text-alt text-red-500 invisible peer-invalid:visible">Please enter your name</span>
+			</label> -->
 		</div>
 
 		<!-- Message -->
-		<div class="flex flex-col">
-				<label for="message">Message</label>
-				<textarea name="message" id="message" cols="30" rows="3" 
-						class="peer border border-slate-40 text-blue-900"></textarea>
-				<p></p>
-	
+		<div class="form-control">
+			<label class="label">
+				<span class="label-text">Your message</span>
+			</label>
+			<textarea class="textarea textarea-bordered textarea-md focus:textarea-primary h-24 max-w-lg" name="message" placeholder="Type your message here..."></textarea>
+			
 		</div>
 		<input type="hidden" name="redirect" value="http://localhost:3000/thanks">
 
